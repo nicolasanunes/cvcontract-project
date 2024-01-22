@@ -1,0 +1,28 @@
+export class ListTransactionDto {
+  constructor(
+    readonly id: number,
+    readonly acquirer: string,
+    readonly acquirerAdress: string,
+    readonly acquirerCep: string,
+    readonly acquirerNeighborhood: string,
+    readonly acquirerCity: string,
+    readonly acquirerState: string,
+    readonly acquirerCpf: string,
+    readonly acquirerCnpj: string,
+    readonly natureTransmission: string,
+    readonly transmitter: string,
+    readonly transmitterAdress: string,
+    readonly transmitterCep: string,
+    readonly transmitterNeighborhood: string,
+    readonly transmitterCity: string,
+    readonly transmitterState: string,
+    readonly transmitterCpf: string,
+    readonly transmitterCnpj: string,
+    readonly description: string,
+    readonly sender: string,
+    readonly value: string,
+    readonly observation: string,
+    readonly local: string,
+    readonly date: string,
+  ) {}
+}
